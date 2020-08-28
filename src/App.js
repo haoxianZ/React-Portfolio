@@ -6,10 +6,15 @@ import Portfolio from './components/Portfolio';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
+import {Helmet} from "react-helmet";
+
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <Helmet>
+          <title>John's Portfolio</title>
+        </Helmet>
         <Header resumeData={resumeData}/>
         <About resumeData={resumeData}/>
         <Resume resumeData={resumeData}/>
