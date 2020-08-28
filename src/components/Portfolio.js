@@ -9,12 +9,13 @@ export default class Porfolio extends Component {
           <h1>Check Out Some of My Works.</h1>
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
-            resumeData.portfolio && resumeData.portfolio.map((item)=>{
+            resumeData.portfolio && resumeData.portfolio.map((item, idx)=>{
               return(
-                <div className="columns portfolio-item">
+                <div key={idx} className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="#modal-01">
-                      <img src={`${item.imgurl}`} className="item-img"/>
+                    <a target="_blank" href="https://haoxianz.github.io/recipe-search/">
+                      <img alt="Screenshot of the App" 
+                      src={`${item.imgurl}`} className="item-img"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
@@ -23,6 +24,8 @@ export default class Porfolio extends Component {
                       </div>
                     </a>
                   </div>
+                  <a target="_blank" href="https://haoxianz.github.io/recipe-search/">Live Demo</a>
+
                 </div>
               )
             })

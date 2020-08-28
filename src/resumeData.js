@@ -1,60 +1,67 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
+    "name": "John (Haoxian) Zhang",
+    "role": "Full-Stack Web Developer",
+    "linkedinId":"https://www.linkedin.com/in/haoxianzhang/",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/haoxianzhang/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"http://github.com/haoxianZ",
           "className":"fa fa-github"
         },
-        {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
-        }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"I am a Full Stack Web Developer trained by a curriculum designed by Thinkful. Throughout the curriculum, I had built a few projects to showcase the skills that I have learned. On top of web developing skill, my engineering experience also provides me solid foundation of science and data analysis.",
+    "address":"Fairfax, VA",
+    "website":"johnhaoxian@gmail.com",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
+        "UniversityName":"Thinkful",
+        "specialization":"Web Development",
+        "MonthOfPassing":"Dec",
         "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "Achievements":"Full-Stack Web Developer"
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"University of Maryland, College Park",
+        "specialization":"Materials Engineer",
+        "MonthOfPassing":"May",
+        "YearOfPassing":"2019",
+        "Achievements":"Master of Engineering"
+      },
+      {
+        "UniversityName":"University of California, Davis",
+        "specialization":"Materials Engineer",
+        "MonthOfPassing":"Aug",
+        "YearOfPassing":"2017",
+        "Achievements":"Bachelor of Science"
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      },
+        "CompanyName":"W7 Energy",
+        "specialization":"Research Engineer",
+        "MonthOfLeaving":"Till April",
+        "YearOfLeaving":"2020",
+        "Achievements":["•	Developed protocols for quality control for membranes including mechanical properties and defect counts"
+        ,"•	Developed drying conditions for roll to roll membranes casting",
+      "• Correlated Materials performance with manufacturing process through literature investigations and experiments",
+      "•	Acquired Equipment and materials"
+    ]},
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
+        "CompanyName":"University of Maryland",
+        "specialization":"Graduate Research Assistant",
+        "MonthOfLeaving":"Till July",
         "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "Achievements":["•	Fabricated monolayer and multilayer thin film element samples and calculated expected characteristics",
+      "•	Tested the electrical characteristics of samples and drafted bi-weekly reports to present results on a weekly basis",
+    ]
       }
     ],
     "skillsDescription":"Your skills here",
@@ -67,29 +74,22 @@ let resumeData = {
       },
       {
         "skillname":"Reactjs"
-      }
+      },
+      {
+        "skillname":"jQuery"
+      },
+      {
+        "skillname":"Postgres"
+      },
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Recipe Search",
+        "description":"A Web app that allows user to search recipe through image",
+        "imgurl":"images/portfolio/recipeSearch.png",
+        "link": "https://haoxianz.github.io/recipe-search/"
       },
-      {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
-      },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      }
+      
     ],
     "testimonials":[
       {
