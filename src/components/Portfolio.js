@@ -24,7 +24,9 @@ export default class Porfolio extends Component {
                       </div>
                     </a>
                   </div>
-                  <a target="_blank" href="https://haoxianz.github.io/recipe-search/">Live Demo</a>
+                  <a target="_blank" href={item.link}>Live Demo</a>
+                  <br/>
+                  <a target="_blank" href={item.repo}>Repo</a>
 
                 </div>
               )

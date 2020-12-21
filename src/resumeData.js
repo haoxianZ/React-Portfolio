@@ -4,7 +4,7 @@ let resumeData = {
     "role": "Full-Stack Web Developer",
     "linkedinId":"https://www.linkedin.com/in/haoxianzhang/",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies.",
+    "roleDescription": " I enjoy coding to make life more convenience.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -64,31 +64,49 @@ let resumeData = {
     ]
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"Proficient in:",
     "skills":[
-      {
-        "skillname":"HTML5"
-      },
       {
         "skillname":"CSS"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"Express"
       },
       {
         "skillname":"jQuery"
       },
       {
+        "skillname":"NodeJs"
+      },
+      {
         "skillname":"Postgres"
+      },
+      {
+        "skillname":"Reactjs"
       },
     ],
     "portfolio":[
       {
+        "name":"What Should I Make?",
+        "description":"A Web to keep track what's in the fridge and suggest recipes base on that.",
+        "imgurl":"images/portfolio/whatMake.png",
+        "link": "https://what-should-i-make-client.vercel.app/",
+        "repo":"https://github.com/haoxianZ/what-should-i-make-client"
+      },
+      {
+        "name":"Encouragement Bank",
+        "description":"A Web for user to write encouragements to others and receive encouragement.",
+        "imgurl":"images/portfolio/encouragementScreenshot2.png",
+        "link": "https://encouragement-exchange.vercel.app/",
+        "repo":"https://github.com/haoxianZ/encouraging-notes/tree/master/react-client"
+      },
+      {
         "name":"Recipe Search",
         "description":"A Web app that allows user to search recipe through image",
         "imgurl":"images/portfolio/recipeSearch.png",
-        "link": "https://haoxianz.github.io/recipe-search/"
-      },
+        "link": "https://haoxianz.github.io/recipe-search/",
+        "repo":"https://github.com/haoxianZ/recipe-search"
+      }
       
     ],
     "testimonials":[

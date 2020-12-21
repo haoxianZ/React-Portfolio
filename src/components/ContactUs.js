@@ -14,7 +14,9 @@ export default class ContactUs extends Component {
           <div className="row">
             <aside className="eigth columns footer-widgets">
               <div className="widget">
-                
+                <h4>Email: 
+                  johnhaoxian@gmail.com
+                </h4>
               </div>
             </aside>
           </div>
