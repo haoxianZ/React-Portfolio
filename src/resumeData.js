@@ -88,21 +88,21 @@ let resumeData = {
     "portfolio":[
       {
         "name":"What Should I Make?",
-        "description":"A Web to keep track what's in the fridge and suggest recipes base on that.",
+        "description":"A Web that keeps track of what's in the fridge and suggest recipes base on that.",
         "imgurl":"images/portfolio/whatMake.png",
         "link": "https://what-should-i-make-client.vercel.app/",
         "repo":"https://github.com/haoxianZ/what-should-i-make-client"
       },
       {
         "name":"Encouragement Bank",
-        "description":"A Web for user to write encouragements to others and receive encouragement.",
+        "description":"A Web for users to write encouragements to and receive encouragements from other.",
         "imgurl":"images/portfolio/encouragementScreenshot2.png",
         "link": "https://encouragement-exchange.vercel.app/",
         "repo":"https://github.com/haoxianZ/encouraging-notes/tree/master/react-client"
       },
       {
         "name":"Recipe Search",
-        "description":"A Web app that allows user to search recipe through image",
+        "description":"A Web app that allows users to search for recipe via image",
         "imgurl":"images/portfolio/recipeSearch.png",
         "link": "https://haoxianz.github.io/recipe-search/",
         "repo":"https://github.com/haoxianZ/recipe-search"
