@@ -4,7 +4,7 @@ let resumeData = {
     "role": "Full-Stack Web Developer",
     "linkedinId":"https://www.linkedin.com/in/haoxianzhang/",
     "skypeid": "Your skypeid",
-    "roleDescription": " I enjoy coding to make life more convenience.",
+    "roleDescription": " I am a Full-Stack Web Developer. I enjoy coding to make life more convenient.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -16,8 +16,13 @@ let resumeData = {
           "url":"http://github.com/haoxianZ",
           "className":"fa fa-github"
         },
+        {
+          "name":"Resume",
+          "url":"https://docs.google.com/document/d/1a_RtRtEwat4bgRlbgkHQaubKcValBSj4eKO7H7Tm1vs/edit?usp=sharing",
+          "className":"fa fa-files-o"
+        },
       ],
-    "aboutme":"I am a Full Stack Web Developer trained by a curriculum designed by Thinkful. Throughout the curriculum, I had built a few projects to showcase the skills that I have learned. On top of web developing skill, my engineering experience also provides me solid foundation of science and data analysis.",
+    "aboutme":"I am a Full-Stack Web Developer trained by an immersive curriculum at Thinkful. Throughout the curriculum, I built a few projects to showcase the skills I learned. On top of web development skills, my engineering experience also provides me with a solid foundation in science and data analysis.",
     "address":"Fairfax, VA",
     "website":"johnhaoxian@gmail.com",
     "education":[
@@ -88,21 +93,21 @@ let resumeData = {
     "portfolio":[
       {
         "name":"What Should I Make?",
-        "description":"A Web that keeps track of what's in the fridge and suggest recipes base on that.",
+        "description":"An app that keeps track of what’s in the fridge and suggests recipes based on such contents.",
         "imgurl":"images/portfolio/whatMake.png",
         "link": "https://what-should-i-make-client.vercel.app/",
         "repo":"https://github.com/haoxianZ/what-should-i-make-client"
       },
       {
         "name":"Encouragement Bank",
-        "description":"A Web for users to write encouragements to and receive encouragements from other.",
+        "description":"An app for users to write encouraging messages and in return, receive encouraging messages from others.",
         "imgurl":"images/portfolio/encouragementScreenshot2.png",
         "link": "https://encouragement-exchange.vercel.app/",
         "repo":"https://github.com/haoxianZ/encouraging-notes/tree/master/react-client"
       },
       {
         "name":"Recipe Search",
-        "description":"A Web app that allows users to search for recipe via image",
+        "description":"An app that allows users to search for recipes via images.",
         "imgurl":"images/portfolio/recipeSearch.png",
         "link": "https://haoxianz.github.io/recipe-search/",
         "repo":"https://github.com/haoxianZ/recipe-search"
