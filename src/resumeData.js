@@ -16,11 +16,7 @@ let resumeData = {
           "url":"http://github.com/haoxianZ",
           "className":"fa fa-github"
         },
-        {
-          "name":"Resume",
-          "url":"https://docs.google.com/document/d/1a_RtRtEwat4bgRlbgkHQaubKcValBSj4eKO7H7Tm1vs/edit?usp=sharing",
-          "className":"fa fa-files-o"
-        },
+
       ],
     "aboutme":"I am a Full-Stack Web Developer trained by an immersive curriculum at Thinkful. Throughout the curriculum, I built a few projects to showcase the skills I learned. On top of web development skills, my engineering experience also provides me with a solid foundation in science and data analysis.",
     "address":"Fairfax, VA",

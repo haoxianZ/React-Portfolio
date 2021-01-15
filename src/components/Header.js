@@ -35,6 +35,9 @@ export default class Header extends Component {
                           }
                     )
                   }
+                  <li key="resume">
+                    <a href="/images/thinkful-Resume.pdf" download target="_blank"><i className="fa fa-files-o"></i></a>
+                  </li>
                </ul>
             </div>
          </div>
